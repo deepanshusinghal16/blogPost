@@ -9,7 +9,7 @@ const Blogs = () => {
         <div className='flex flex-col justify-center items-center text-left max-w-[680px] w-[80%] sm:w-[60%] mx-auto mt-[4rem]'>
             {
                 loading ? (
-                    <div className='w-[]'><CircleLoader /> Loading... </div>) :
+                    <div className='flex items-center justify-center h-[100vh]'><CircleLoader /> Loading... </div>) :
 
                     (
                         posts.length === 0 ? (
