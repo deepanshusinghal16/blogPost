@@ -1,9 +1,20 @@
 import React from 'react'
-import { CircleLoader } from 'react-spinners';
+import { Comment } from 'react-loader-spinner';
 
 const Spinner = () => {
         return (
-                <div className='flex flex-col items-center justify-center font-semibold h-[100vh]'><CircleLoader /> Loading... </div>
+                <div className='flex flex-col items-center justify-center font-semibold h-[100vh]'>
+                        <Comment
+                                visible={true}
+                                height="80"
+                                width="80"
+                                ariaLabel="comment-loading"
+                                wrapperStyle={{}}
+                                wrapperClass="comment-wrapper"
+                                color="#fff"
+                                backgroundColor="#808080"
+                        />
+                        Loading... </div>
         )
 }
 

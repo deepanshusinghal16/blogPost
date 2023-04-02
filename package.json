@@ -1,5 +1,5 @@
 {
-  "homepage": "https://deepanshusinghal16.github.io/",
+  "homepage": "https://deepanshusinghal16.github.io/blogPost",
   "name": "blog_page",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.8",
